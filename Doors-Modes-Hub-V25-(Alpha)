@@ -1,3 +1,9 @@
+game:GetService("TextChatService").TextChannels.RBXGeneral:DisplaySystemMessage("<b><font color='rgb(180, 0, 255)'>Doors Modes Hub V25 Loaded!</font></b>")
+wait(1.5)
+game:GetService("TextChatService").TextChannels.RBXGeneral:DisplaySystemMessage("<b><font color='rgb(180, 0, 255)'>Made By Rip_Silence (#idkman06483)</font></b>")
+wait(1.5)
+game:GetService("TextChatService").TextChannels.RBXGeneral:DisplaySystemMessage("<b><font color='rgb(180, 0, 255)'>Credit to RealblueYT for the Loading UI & The Sign Text In Chat</font></b>")
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/DenDenZZZ/Kavo-UI-Library/main/Kavo.lua"))()
 
 local Window = Library.CreateLib("⭐Doors Modes Hub V25⭐ (Alpha)", "BloodTheme")
