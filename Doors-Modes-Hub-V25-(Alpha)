@@ -88,7 +88,7 @@ Section:NewButton("Scary Mode", "Made by Rip_Silence", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/idkman60093/Doors-Modes/refs/heads/main/Scary%20Mode"))()
 end)
 
-Section:NewButton("Draco Mode", "Made by Rip_Silence", function()
+Section:NewButton("Draco Mode V2", "Made by Rip_Silence", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/idkman60093/Doors-Modes/refs/heads/main/Draco%20Mode%20(Fully%20Completed)"))()
 end)
 
@@ -310,12 +310,16 @@ Section:NewButton("Nightmare Mode", "Made by Kodbol", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/kodbolx/kodbolhub/refs/heads/main/Nightmare%20Mode/Nightmare%20Mode.lua"))()
 end)
 
+Section:NewButton("Difficulty Mode", "Made by eoyoustme", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyoustme/41450088/refs/heads/main/Difficulty%20mode%20fix"))()
+end)
+
 Section:NewButton("Psychotic Mode", "Made by someone that idk", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Psychotic-mode/main/monste%20and%20Door%20Sounds.lua"))()
 end)
 
 Section:NewButton("Darkness Mode", "Made by Chu be te liet", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/chubeteliet-cpu/Darkness-mode/refs/heads/main/Darkness%20mode", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/chubeteliet-cpu/Darkness-mode/refs/heads/main/Darkness%20mode%20rework", true))()
 end)
 
 Section:NewButton("Hardcore Mode (Remastered)", "Credit to someone that idk", function()
@@ -905,6 +909,14 @@ Section:NewButton("Eclipser Spawner", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Guestly-V2-2/Doors/refs/heads/main/Eclipser"))()
 end)
 
+Section:NewButton("Monoxide Spawner", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyoustme/back/refs/heads/main/Monoxide1"))()
+end)
+
+Section:NewButton("Depthter Spawner", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyoustme/back/refs/heads/main/Depthter"))()
+end)
+
 Section:NewButton("Blink Spawner", "ButtonInfo", function()
 loadstring(game:HttpGet("https://github.com/PABMAXICHAC/doors-monsters-scripts/raw/main/blinkcrux"))()
 end)
@@ -949,6 +961,10 @@ end)
 
 Section:NewButton("Ripper Spawner (Remake)", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rrealblueyt-oss/Ripperr/refs/heads/main/Ripperremake.lua"))()
+end)
+
+Section:NewButton("Frostbite Spawner (Remake)", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyoustme/back/refs/heads/main/Frostbite1"))()
 end)
 
 Section:NewButton("A-60 Spawner (Remake)", "ButtonInfo", function()
@@ -1060,6 +1076,14 @@ end)
 ---====== Run entity ======---
 
 entity:Run()
+end)
+
+Section:NewButton("Null Spawner", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyoustme/41450088/refs/heads/main/Null"))()
+end)
+
+Section:NewButton("Fear Spawner (Remake)", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyoustme/nightmare/refs/heads/main/Fear"))()
 end)
 
 Section:NewButton("Black Spawner", "ButtonInfo", function()
@@ -1269,10 +1293,18 @@ local Tab = Window:NewTab("🤔Update Logs🤔")
 
 local Section = Tab:NewSection("---Update Logs---")
 
-local Section = Tab:NewSection("1. Added Viridis Lighter (Need Lighter) In Custom Item Section")
-local Section = Tab:NewSection("2. Added Grass Tablet In Custom Item Section")
-local Section = Tab:NewSection("3. Added Seek Plushie In Custom Item Section")
-local Section = Tab:NewSection("4. Added A-60 Spawner (Remake) In Entity Spawner Section")
+local Section = Tab:NewSection("1. Updated Draco Mode Version 1 --> 2 In Modes Section")
+local Section = Tab:NewSection("2. Updated Darkness Mode In Modes Section")
+local Section = Tab:NewSection("3. Added Viridis Lighter (Need Lighter) In Custom Item Section")
+local Section = Tab:NewSection("4. Added Grass Tablet In Custom Item Section")
+local Section = Tab:NewSection("5. Added Seek Plushie In Custom Item Section")
+local Section = Tab:NewSection("6. Added A-60 Spawner (Remake) In Entity Spawner Section")
+local Section = Tab:NewSection("7. Added Monoxide Spawner In Entity Spawner Section")
+local Section = Tab:NewSection("8. Added Depthter Spawner In Entity Spawner Section")
+local Section = Tab:NewSection("9. Added Frostbite Spawner (Remake) In Entity Spawner Section")
+local Section = Tab:NewSection("10. Added Null Spawner In Entity Spawner Section")
+local Section = Tab:NewSection("11. Added Fear Spawner (Remake) In Entity Spawner Section")
+local Section = Tab:NewSection("12. Added Difficulty Mode In Modes Section")
 
 local Tab = Window:NewTab("😄Credits😄")
 
