@@ -1,4 +1,4 @@
-wait(4.5)
+wait(4.9)
 game:GetService("TextChatService").TextChannels.RBXGeneral:DisplaySystemMessage("<b><font color='rgb(180, 0, 255)'>Doors Modes Hub V25 Loaded!</font></b>")
 wait(1.5)
 game:GetService("TextChatService").TextChannels.RBXGeneral:DisplaySystemMessage("<b><font color='rgb(180, 0, 255)'>Made By Rip_Silence (#idkman06483)</font></b>")
