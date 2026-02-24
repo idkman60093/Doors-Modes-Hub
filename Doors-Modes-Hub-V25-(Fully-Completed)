@@ -87,4 +87,5 @@ task.spawn(function()
     ScreenGui:Destroy()
 end)
 
+wait(6)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/idkman60093/Doors-Modes-Hub/refs/heads/main/Doors-Modes-Hub-V25-(Alpha)"))()
