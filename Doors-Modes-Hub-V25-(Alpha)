@@ -4,26 +4,6 @@ game:GetService("TextChatService").TextChannels.RBXGeneral:DisplaySystemMessage(
 wait(1.5)
 game:GetService("TextChatService").TextChannels.RBXGeneral:DisplaySystemMessage("<b><font color='rgb(180, 0, 255)'>Credit to RealblueYT for the Loading UI & The Sign Text In Chat</font></b>")
 
-local shut = game.Players.LocalPlayer.PlayerGui.MainUI.MainFrame.IntroText
-local intro = shut:Clone()
-intro.Parent = game.Players.LocalPlayer.PlayerGui.MainUI
-intro.Name = "Fragment Mode Intro"
-intro.Visible = true
-intro.Text = "⭐Doors Modes Hub V25⭐"
-intro.TextTransparency = 0
-local underline = UDim2.new(1.1, 0, 0.015, 6)
-game.TweenService:Create(intro.Underline, TweenInfo.new(3), {Size = underline}):Play()
-wait(7)
-game.TweenService:Create(intro.Underline, TweenInfo.new(1.3), {Size = UDim2.new(0.95, 0, 0.015, 6)}):Play()
-wait(1)
-game.TweenService:Create(intro.Underline, TweenInfo.new(2), {ImageTransparency = 1}):Play()
-game.TweenService:Create(intro, TweenInfo.new(2), {TextTransparency = 1}):Play()
-game.TweenService:Create(intro.Underline, TweenInfo.new(7), {Size = UDim2.new(0, 0, 0.015, 6)}):Play()
-wait(2.3)
-intro.Visible = false
-wait(4)
-intro:Destroy()
-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/DenDenZZZ/Kavo-UI-Library/main/Kavo.lua"))()
 
 local Window = Library.CreateLib("⭐Doors Modes Hub V25⭐ (Alpha)", "BloodTheme")
@@ -1331,3 +1311,23 @@ local Tab = Window:NewTab("😄Credits😄")
 local Section = Tab:NewSection("---Credits---")
 local Section = Tab:NewSection("Hub by Rip_Silence")
 local Section = Tab:NewSection("Credit to Everyone")
+
+local shut = game.Players.LocalPlayer.PlayerGui.MainUI.MainFrame.IntroText
+local intro = shut:Clone()
+intro.Parent = game.Players.LocalPlayer.PlayerGui.MainUI
+intro.Name = "Fragment Mode Intro"
+intro.Visible = true
+intro.Text = "⭐Doors Modes Hub V25⭐"
+intro.TextTransparency = 0
+local underline = UDim2.new(1.1, 0, 0.015, 6)
+game.TweenService:Create(intro.Underline, TweenInfo.new(3), {Size = underline}):Play()
+wait(7)
+game.TweenService:Create(intro.Underline, TweenInfo.new(1.3), {Size = UDim2.new(0.95, 0, 0.015, 6)}):Play()
+wait(1)
+game.TweenService:Create(intro.Underline, TweenInfo.new(2), {ImageTransparency = 1}):Play()
+game.TweenService:Create(intro, TweenInfo.new(2), {TextTransparency = 1}):Play()
+game.TweenService:Create(intro.Underline, TweenInfo.new(7), {Size = UDim2.new(0, 0, 0.015, 6)}):Play()
+wait(2.3)
+intro.Visible = false
+wait(4)
+intro:Destroy()
