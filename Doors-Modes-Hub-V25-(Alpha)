@@ -7,7 +7,7 @@ game:GetService("TextChatService").TextChannels.RBXGeneral:DisplaySystemMessage(
 local shut = game.Players.LocalPlayer.PlayerGui.MainUI.MainFrame.IntroText
 local intro = shut:Clone()
 intro.Parent = game.Players.LocalPlayer.PlayerGui.MainUI
-intro.Name = "Doors Modes Hub Intro"
+intro.Name = "Fragment Mode Intro"
 intro.Visible = true
 intro.Text = "⭐Doors Modes Hub V25⭐"
 intro.TextTransparency = 0
