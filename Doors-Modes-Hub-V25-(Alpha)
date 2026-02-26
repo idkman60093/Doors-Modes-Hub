@@ -323,6 +323,10 @@ Section:NewButton("Darkness Mode", "Made by Chu be te liet", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/chubeteliet-cpu/Darkness-mode/refs/heads/main/Darkness%20mode%20rework", true))()
 end)
 
+Section:NewButton("Stryker Mode", "Made by Rip_Silence", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/idkman60093/Doors-Modes/refs/heads/main/Stryker-Mode-(Fully-Completed)"))()
+end)
+
 Section:NewButton("Hardcore Mode (Remastered)", "Credit to someone that idk", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/daiayday/HardcoreRemastered/refs/heads/main/obf_L6zO2N0sG5ehDHd56JBc5z70TZ2piVOvIqsgE88741HXGrwv7E4qd6c8axu8z4oh.lua.txt"))()
 end)
@@ -856,6 +860,10 @@ Section:NewButton("Rebound Spawner (Remake)", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rrealblueyt-oss/Rebound-/refs/heads/main/Rebound"))()
 end)
 
+Section:NewButton("Deer God Spawner (Remake)", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyoustme/back/refs/heads/main/Deer%20God"))()
+end)
+
 Section:NewButton("Cease Spawner", "ButtonInfo", function()
 loadstring(game:HttpGet("https://pastefy.app/ofutwkjb/raw"))()
 end)
@@ -1091,6 +1099,10 @@ Section:NewButton("Black Spawner", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Junbbinopro/Black-smile/refs/heads/main/Black"))()
 end)
 
+Section:NewButton("Claim Spawner", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyoustme/Doors-Mode-Remakes/refs/heads/main/Claim.lua"))()
+end)
+
 Section:NewButton("Chaotic Spawner", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/J63633S/Laver-mode/refs/heads/main/Chaotic"))()
 end)
@@ -1303,9 +1315,12 @@ local Section = Tab:NewSection("6. Added A-60 Spawner (Remake) In Entity Spawner
 local Section = Tab:NewSection("7. Added Monoxide Spawner In Entity Spawner Section")
 local Section = Tab:NewSection("8. Added Depthter Spawner In Entity Spawner Section")
 local Section = Tab:NewSection("9. Added Frostbite Spawner (Remake) In Entity Spawner Section")
-local Section = Tab:NewSection("10. Added Null Spawner In Entity Spawner Section")
-local Section = Tab:NewSection("11. Added Fear Spawner (Remake) In Entity Spawner Section")
-local Section = Tab:NewSection("12. Added Difficulty Mode In Modes Section")
+local Section = Tab:NewSection("10. Added Deer God Spawner (Remake) In Entity Spawner Section")
+local Section = Tab:NewSection("11. Added Claim Spawner In Entity Spawner Section")
+local Section = Tab:NewSection("12. Added Null Spawner In Entity Spawner Section")
+local Section = Tab:NewSection("13. Added Fear Spawner (Remake) In Entity Spawner Section")
+local Section = Tab:NewSection("14. Added Difficulty Mode In Modes Section")
+local Section = Tab:NewSection("15. Added Stryker Mode In Modes Section")
 
 local Tab = Window:NewTab("😄Credits😄")
 
