@@ -142,7 +142,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/GuestlyTheGreatestGue
 end)
 
 Section:NewButton("Hardcore Mode (Fixed)", " Made By Noonie & Ping and Credit to THE_LOSTW3R for fixing the Hardcore Mode", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/idkman60093/Doors-Modes/refs/heads/main/Hardcore%20Mode%20Fixed%20By%20THE_LOSTW3R"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thelostw3r/Mods/main/HardcoreMode.lua"))()
 end)
 
 Section:NewButton("Mayhem Mode", "Working Perfectly", function()
@@ -173,6 +173,10 @@ warn("[Loadstring Error]", err)
 else
 print("[Loaded Successfully]")
 end
+end)
+
+Section:NewButton("Immersive Mode (Remake)", "Remake by RealblueYT", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rrealblueyt-oss/immersive-remake/refs/heads/main/immersive-remake-by-realblueyt-THE_LOSTW3R.lua", true))()
 end)
 
 Section:NewButton("Chaos Mode V1", "Credit to DJ SD (Tunder8401)", function()
@@ -251,6 +255,10 @@ Section:NewButton("Cizinuness Mode", "Created by Guestly (Celestian)", function(
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GuestlyTheGreatestGuest/Modes/refs/heads/main/Cizinuness-Mode-Made-By-Guestly", true))()
 end)
 
+Section:NewButton("Suggestion Mode", "Made By Guestly (Celestian)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Not-Guestly/Modes/refs/heads/main/Suggestions-Mode"))()
+end)
+
 Section:NewButton("Dreamcore Mode", "Made by Guestly & VoorPr0", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GuestlyTheGreatestGuest/Modes/refs/heads/main/Dreamcore-Mode-Made-by-Guestly-and-Voorpr0"))()
 end)
@@ -312,7 +320,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/kodbolx/kodbolhub/ref
 end)
 
 Section:NewButton("Difficulty Mode", "Made by eoyoustme", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyoustme/41450088/refs/heads/main/Difficulty%20mode%20fix"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyoustme/41450088/refs/heads/main/Difficulty%20mode%20fix"))()
 end)
 
 Section:NewButton("Psychotic Mode", "Made by someone that idk", function()
@@ -329,6 +337,10 @@ end)
 
 Section:NewButton("Hardcore Mode (Remastered)", "Credit to someone that idk", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/daiayday/HardcoreRemastered/refs/heads/main/obf_L6zO2N0sG5ehDHd56JBc5z70TZ2piVOvIqsgE88741HXGrwv7E4qd6c8axu8z4oh.lua.txt"))()
+end)
+
+Section:NewButton("Fragmented Mode (Recreation??)", "Recreation By THE_LOSTW3R", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thelostw3r/Mods/refs/heads/main/FragmentedModeRemake.lua"))()
 end)
 
 Section:NewButton("Furry Mode", "Made by VoorPr0", function()
@@ -1319,8 +1331,11 @@ local Section = Tab:NewSection("10. Added Deer God Spawner (Remake) In Entity Sp
 local Section = Tab:NewSection("11. Added Claim Spawner In Entity Spawner Section")
 local Section = Tab:NewSection("12. Added Null Spawner In Entity Spawner Section")
 local Section = Tab:NewSection("13. Added Fear Spawner (Remake) In Entity Spawner Section")
-local Section = Tab:NewSection("14. Added Difficulty Mode In Modes Section")
-local Section = Tab:NewSection("15. Added Stryker Mode In Modes Section")
+local Section = Tab:NewSection("14. Added Fragmented Mode (Recreation??) In Modes Section")
+local Section = Tab:NewSection("15. Added Immersive Mode (Remake) In Modes Section")
+local Section = Tab:NewSection("16. Added Difficulty Mode In Modes Section")
+local Section = Tab:NewSection("17. Added Suggestion Mode In Modes Section")
+local Section = Tab:NewSection("18. Added Stryker Mode In Modes Section")
 
 local Tab = Window:NewTab("😄Credits😄")
 
