@@ -180,7 +180,7 @@ end
 end)
 
 Section:NewButton("Immersive Mode (Remake)", "Remake by RealblueYT", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/rrealblueyt-oss/immersive-remake/refs/heads/main/immersive-remake-by-realblueyt-THE_LOSTW3R.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rrealblueyt-oss/immersive-remake/refs/heads/main/Immersive-remake-loaded-localplayer-Origin-script.lua"))()
 end)
 
 Section:NewButton("Chaos Mode V1", "Credit to DJ SD (Tunder8401)", function()
