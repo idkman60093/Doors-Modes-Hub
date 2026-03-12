@@ -82,9 +82,9 @@ task.spawn(function()
         Bar.Size = UDim2.new(i/100,0,1,0)
         task.wait(0.03)
     end
-    Text.Text = "Doors Modes Hub V26 Loaded!"
+    Text.Text = "Doors Modes Hub V25 Loaded!"
     task.wait(0.5)
     ScreenGui:Destroy()
 end)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/idkman60093/Doors-Modes-Hub/refs/heads/main/Doors-Modes-Hub-V26")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/idkman60093/Doors-Modes-Hub/refs/heads/main/Doors-Modes-Hub-V26"))()
