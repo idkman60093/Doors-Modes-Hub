@@ -1,5 +1,5 @@
 wait(4.85)
-game:GetService("TextChatService").TextChannels.RBXGeneral:DisplaySystemMessage("<b><font color='rgb(180, 0, 255)'>Doors Modes Hub V26 Loaded!</font></b>")
+game:GetService("TextChatService").TextChannels.RBXGeneral:DisplaySystemMessage("<b><font color='rgb(180, 0, 255)'>Doors Modes Hub V27 Loaded!</font></b>")
 wait(1.5)
 game:GetService("TextChatService").TextChannels.RBXGeneral:DisplaySystemMessage("<b><font color='rgb(180, 0, 255)'>Made By Rip_Silence (#idkman06483)</font></b>")
 wait(1.5)
@@ -7,7 +7,7 @@ game:GetService("TextChatService").TextChannels.RBXGeneral:DisplaySystemMessage(
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/DenDenZZZ/Kavo-UI-Library/main/Kavo.lua"))()
 
-local Window = Library.CreateLib("⭐Doors Modes Hub V26⭐ (Alpha)", "BloodTheme")
+local Window = Library.CreateLib("⭐Doors Modes Hub V27⭐ (Alpha)", "BloodTheme")
 
 local Tab = Window:NewTab("🔪Modes🔪")
 
@@ -21,24 +21,28 @@ Section:NewButton("Creepy Mode", "Working Perfectly", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DripCapybara/Doors-Modes/refs/heads/main/CreepyMode/ObfuscatedMain.lua"))()
 end)
 
-Section:NewButton("Combined Mode", "Unknown", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/g4nvj2EP"))()
+Section:NewButton("Combined Mode (Fixed)", "Fixed By Gab", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzzGabbbb/TheCombined/refs/heads/main/CombinedModeFixedWAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.lua"))()
 end)
 
 Section:NewButton("Ultra Hard Mode (UPDATED)", " Made By Zunxd", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Junxd-03/UltraHardModeUpdate/refs/heads/main/UltraHardMode.lua"))()
 end)
 
-Section:NewButton("Fear Mode (Fixed)", "Recreate by Voorpr0", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/lelele78/Securityproject/refs/heads/main/FEAROBF"))()
+Section:NewButton("Fear Mode (Fixed)", "Recreated by Voorpr0", function()
+loadstring(game:HttpGet("https://pastefy.app/jFdxd7Zu/raw"))()
 end)
 
-Section:NewButton("Hard Mode (Fixed)", "Fixed by Voorpr0 & Nowhywhats", function()
+Section:NewButton("Hard Mode (Locked)", "Fixed by Voorpr0 & Nowhywhats", function()
 loadstring(game:HttpGet("https://arch-http.vercel.app/files/ProtectHard"))()
 end)
 
 Section:NewButton("Hazy Mode (Recreated)", "Recreated by Guestly (Celestian)", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GuestlyTheGreatestGuest/Modes/refs/heads/main/Hazy-Mode-Recreated-made-by-Guestly-(Celestian)-on-Discord"))()
+end)
+
+Section:NewButton("Dark Mode (Fixed)", "Fixed By Gab", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzzGabbbb/-/refs/heads/main/Dark%20Mode%20Fixed.lua"))()
 end)
 
 Section:NewButton("Void Mode", "Credit to Minh_Dcord", function()
@@ -49,6 +53,14 @@ Section:NewButton("Null Mode", "Made by RealblueYT & LDLT_Legacy", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rrealblueyt-oss/Null-mode/refs/heads/main/Null%20mode%20alpha%20by%20RealblueYT%20and%20LDLT_legacy"))()
 end)
 
+Section:NewButton("Cazy Mode", "Made By RealblueYT", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realbluedeptrainhat/Cazy-mode/refs/heads/main/cazy-mode%20.txt", true))()
+end)
+
+Section:NewButton("Fear Mode V2", "Made By Reboundplayz", function()
+loadstring(Game:HttpGet("https://github.com/reboundplayz/Doors-Fixed-Modes/raw/refs/heads/main/Doors%20Fear%20Mode%20Mobile"))()
+end)
+
 Section:NewButton("Fog Mode (Coming Soon)", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/twinmaw/twin-maw-doors/refs/heads/main/twin-maw-doors.txt?token=GHSAT0AAAAAADTNMJDQ7LPWVB76QIHMW46O2LK6URQ"))()
 end)
@@ -57,8 +69,15 @@ Section:NewButton("Wer Mode (Homemade Mode)", "Made by RealblueYT", function()
 loadstring(game:HttpGet("https://arch-http.vercel.app/files/Projectwermode"))()
 end)
 
-Section:NewButton("Impossible Mode V1.8 (Fixed)", "Fixed by Voorpr0 & Nowhywwhat & Guestly & Vuivuiviu2", function()
-loadstring(game:HttpGet("https://arch-http.vercel.app/files/Impossible-mode"))()
+Section:NewButton("Impossible Mode V1.8 (Fixed)", "Fixed by Voorpr0 & Nowhywwhat & Guestly & Vuivuiviu2 & Reboundplayz", function()
+loadstring(Game:HttpGet("https://pastefy.app/UuuBA3uS/raw"))()
+
+--Common Sense
+game.ReplicatedStorage.GameData.LatestRoom.Changed:connect(function()
+if game.ReplicatedStorage.GameData.LatestRoom.Value == 50 then
+loadstring(Game:HttpGet("https://github.com/reboundplayz/doors-fear-mode/raw/refs/heads/main/common%20sense%20spawner"))()
+end
+end)
 end)
 
 Section:NewButton("Hallucination Mode (Easy Version)", " Credit to Guestly (Celestian)", function()
@@ -165,8 +184,8 @@ Section:NewButton("Mayhem Mode", "Working Perfectly", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/localplayerr/Doors-stuff/refs/heads/main/Mayhem%20mode%20recreate/Code"))()
 end)
 
-Section:NewButton("Endless Mode (Fixed)", "Made by DripCapybara & Reworked By VoorPr0", function()
-loadstring(game:HttpGet("https://arch-http.vercel.app/files/EndlessMode"))()
+Section:NewButton("Endless Mode (Fixed)", "Made by DripCapybara & Fixed By Gab", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzzGabbbb/The-Endless/refs/heads/main/EndlessModeFixedByGabOmgReal.lua"))()
 end)
 
 Section:NewButton("Hollow Mode", "Made by someone that idk", function()
@@ -205,6 +224,10 @@ end)
 
 Section:NewButton("Ultra Hard Mode V3 (Remake)", "Remake by RealblueYT", function()
 loadstring(game:HttpGet("https://arch-http.vercel.app/files/projecthradmodv3"))()
+end)
+
+Section:NewButton("Fragmented Mode V4 (Fixed)", "Made By Jabiss", function()
+loadstring(game:HttpGet("https://glot.io/snippets/h81q93s9qb/raw/main.lua"))()
 end)
 
 Section:NewButton("Plamen6789's Hardcore Mode (Remake)", "Remaked By Zunxd", function()
@@ -375,8 +398,8 @@ Section:NewButton("Fragmented Mode (Recreation??)", "Recreation By THE_LOSTW3R",
 loadstring(game:HttpGet("https://raw.githubusercontent.com/thelostw3r/Mods/refs/heads/main/FragmentedModeRemake.lua"))()
 end)
 
-Section:NewButton("Furry Mode", "Made by VoorPr0", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/lelele78/Securityproject/refs/heads/main/Furry"))()
+Section:NewButton("Furry Mode (Fixed)", "Made by VoorPr0", function()
+loadstring(game:HttpGet("https://pastefy.app/US91TWoT/raw"))()
 end)
 
 Section:NewButton("Broken Mode", "Made by TheDarkMan", function()
@@ -844,6 +867,10 @@ Section:NewButton("Guestly's New Doors Modes Hub", "Made by Guestly (Celestian)"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Not-Guestly/Modes/refs/heads/main/DOORS-MODES-HUB"))()
 end)
 
+Section:NewButton("Eukard's Doors Modes Hub", "Made By Eukard", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Aboba228-Abobic/Eukard-s-Hub/refs/heads/main/EukardsHub'))()
+end)
+
 Section:NewButton("Doors Modes Hub V1 (Oldest Version??)", "Oldest Version Of Doors Modes Hub???", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/idkman60093/Doors-Modes/refs/heads/main/Unknown"))()
 end)
@@ -1028,6 +1055,10 @@ Section:NewButton("Rebound Spawner (READ THE DESCRIPTION)", "Execute Rebound Spa
 loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyoustme/ohh/refs/heads/main/Rebound"))()
 end)
 
+Section:NewButton("Running Fredbear Spawner", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/wbEc0ThZ"))()
+end)
+
 Section:NewButton("Ripper Spawner (Remake)", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rrealblueyt-oss/Ripperr/refs/heads/main/Ripperremake.lua"))()
 end)
@@ -1171,6 +1202,10 @@ Section:NewButton("Dread Spawner (READ THE DESCRIPTION)", "Execute Dread Spawner
 loadstring(game:HttpGet("https://raw.githubusercontent.com/talales/Nhankg_/refs/heads/main/intro%20fragmented"))()
 end)
 
+Section:NewButton("Ripper Spawner (Made by Gab)", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzzGabbbb/RipperSpawner/refs/heads/main/RipperEntityFromHardcoreMode.lua"))()
+end)
+
 Section:NewButton("Bluyer Spawner", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Junbbinopro/Bluyer-entity/refs/heads/main/Bluyer"))()
 end)
@@ -1207,6 +1242,10 @@ Section:NewButton("Black Hole (OVERPOWERED)", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/Black%20Hole.lua"))()
 end)
 
+Section:NewButton("Scroll Of Sevenless", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ahma174/Tool/refs/heads/main/Doors%20Scroll%20Of%20Sevenless.lua"))()
+end)
+
 Section:NewButton("Crucifix", "by PenguinManiack", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/PenguinManiack/Crucifix/main/Crucifix.lua'))()
 end)
@@ -1217,6 +1256,10 @@ end)
 
 Section:NewButton("Infinite Vitamins", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/refs/heads/main/Inf_Vitamins.lua"))()
+end)
+
+Section:NewButton("Luger Pistol", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/WcYCnACD"))()
 end)
 
 Section:NewButton("Rocket Launcher", "ButtonInfo", function()
@@ -1346,6 +1389,10 @@ Section:NewButton("M249 Gun", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hi822010/Extras-Gliese-Hub-Doors/refs/heads/main/M249"))()
 end)
 
+Section:NewButton("AK-47 Gun", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzzGabbbb/AK47Fixed/refs/heads/main/Ak47ByPenguinManiackFixedByGab.lua"))()
+end)
+
 Section:NewButton("Tool Giver V3 | Doors", "Darli17", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Darli17/Entities/refs/heads/main/Tools", true))()
 end)
@@ -1370,22 +1417,21 @@ local Tab = Window:NewTab("🤔Update Logs🤔")
 
 local Section = Tab:NewSection("---Update Logs---")
 
-local Section = Tab:NewSection("1. Updated THE OVERDOORS to its better version In Extra Section")
-local Section = Tab:NewSection("2. Updated Improbable Mode Final Version (IMPOSSIBLE⚠️⚠️⚠️")
-local Section = Tab:NewSection("3. Updated Gab's Hardcore Mode (MultiPlayer) In Modes Section")
-local Section = Tab:NewSection("4. Added Helping Jack In Extra Section")
-local Section = Tab:NewSection("5. Added Ringer Mode In Modes Section")
-local Section = Tab:NewSection("6. Added Ringer Mode (Remake) In Modes Section")
-local Section = Tab:NewSection("7. Added Voidness Mode V2 In Modes Section")
-local Section = Tab:NewSection("8. Removed Old Voidness Mode In Modes Section")
-local Section = Tab:NewSection("9. Added Impossible Mode (Alpha) In Modes Section")
-local Section = Tab:NewSection("10. Added Guestly's New Doors Modes Hub In Other Script Section")
-local Section = Tab:NewSection("11. Added Dev Admin Panel (Need Admin Panel) In Extra Section")
-local Section = Tab:NewSection("12. Added Gab's Hardcore Mode (SinglePlayer) In Modes Section")
-local Section = Tab:NewSection("13. Added Gab's Fragmented Mode In Modes Section")
-local Section = Tab:NewSection("14. Added Hotel- Gui (Only Works In Hotel-) In Extra Section")
-local Section = Tab:NewSection("15. Added The Mines Mode In Modes Section")
-local Section = Tab:NewSection("16. Added Rooms Mode In Modes Section")
+local Section = Tab:NewSection("1. Updated Endless Mode In Modes Section")
+local Section = Tab:NewSection("2. Updated Combined Mode In Modes Section")
+local Section = Tab:NewSection("3. Updated Fear Mode In Modes Section (It's Back)")
+local Section = Tab:NewSection("4. Updated Impossible Mode In Modes Section (It's back)")
+local Section = Tab:NewSection("5. Updated Furry Mode In Modes Section (It's back)")
+local Section = Tab:NewSection("6. Added AK-47 Gun In Custom Item Section")
+local Section = Tab:NewSection("7. Added Ripper Spawner (Made By Gab) In Entity Spawner Section")
+local Section = Tab:NewSection("8. Added Luger Pistol In Custom Item Section")
+local Section = Tab:NewSection("9. Added Eukard's Doors Modes Hub In Other Script Section")
+local Section = Tab:NewSection("10. Added Running Fredbear Spawner In Entity Spawner Section")
+local Section = Tab:NewSection("11. Added Scroll Of Sevenless In Custom Item Section")
+local Section = Tab:NewSection("12. Added Dark Mode (Fixed) In Modes Section")
+local Section = Tab:NewSection("13. Added Fragmented Mode V4 (Fixed) In Modes Section")
+local Section = Tab:NewSection("14. Added Fear Mode V2 In Modes Section")
+local Section = Tab:NewSection("15. Added Cazy Mode In Modes Section")
 
 local Tab = Window:NewTab("😄Credits😄")
 
@@ -1398,7 +1444,7 @@ local intro = shut:Clone()
 intro.Parent = game.Players.LocalPlayer.PlayerGui.MainUI
 intro.Name = "Fragment Mode Intro"
 intro.Visible = true
-intro.Text = "⭐Doors Modes Hub V26⭐"
+intro.Text = "⭐Doors Modes Hub V27⭐"
 intro.TextTransparency = 0
 local underline = UDim2.new(1.1, 0, 0.015, 6)
 game.TweenService:Create(intro.Underline, TweenInfo.new(3), {Size = underline}):Play()
@@ -1412,3 +1458,4 @@ wait(2.3)
 intro.Visible = false
 wait(4)
 intro:Destroy()
+
