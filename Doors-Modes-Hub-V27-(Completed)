@@ -88,3 +88,13 @@ task.spawn(function()
 end)
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/idkman60093/Doors-Modes-Hub/refs/heads/main/Doors-Modes-Hub-V27"))()
+
+local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/Voor-Pr00/Achivements/refs/heads/main/Voorpr0"))()
+
+---====== Display achievement ======---
+achievementGiver({
+    Title = "Welcome to the Hub",
+    Desc = "It seems the hub has many script!",
+    Reason = "Execute Doors Modes Hub V27",
+    Image = "rbxassetid://9508482832"
+})
