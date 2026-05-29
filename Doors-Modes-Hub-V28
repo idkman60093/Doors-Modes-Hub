@@ -69,7 +69,7 @@ Section:NewButton("Fear Mode V2", "Made By Reboundplayz", function()
 loadstring(Game:HttpGet("https://github.com/reboundplayz/Doors-Fixed-Modes/raw/refs/heads/main/Doors%20Fear%20Mode%20Mobile"))()
 end)
 
-Section:NewButton("Fog Mode (Released)", "Made By Nowwhywhat", function()
+Section:NewButton("Fog Mode (Released)", "Made By Vuivuiviu2", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Ganyu06112/Fog-Mode/refs/heads/main/Fog-Mode.lua"))()
 end)
 
@@ -77,7 +77,7 @@ Section:NewButton("Wer Mode (Homemade Mode)", "Made by RealblueYT", function()
 loadstring(game:HttpGet("https://arch-http.vercel.app/files/Projectwermode"))()
 end)
 
-Section:NewButton("Impossible Mode V1.8 (Fixed)", "Fixed by Voorpr0 & Nowhywwhat & Guestly & Vuivuiviu2 & Reboundplayz", function()
+Section:NewButton("Impossible Mode V1.8 (Fixed)", "Fixed by Voorpr0 & Nowhywwhat & Guestly & Vuivuiviu2", function()
 loadstring(game:HttpGet("https://pastefy.app/PNJZ2hsx/raw"))()
 end)
 
