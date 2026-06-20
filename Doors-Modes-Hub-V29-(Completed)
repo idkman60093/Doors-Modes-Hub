@@ -87,7 +87,7 @@ task.spawn(function()
     ScreenGui:Destroy()
 end)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/idkman60093/Doors-Modes-Hub/refs/heads/main/Doors-Modes-Hub-V29")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/idkman60093/Doors-Modes-Hub/refs/heads/main/Doors-Modes-Hub-V29"))()
 
 local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/Voor-Pr00/Achivements/refs/heads/main/Voorpr0"))()
 
