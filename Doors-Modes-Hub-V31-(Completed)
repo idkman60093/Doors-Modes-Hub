@@ -82,12 +82,12 @@ task.spawn(function()
         Bar.Size = UDim2.new(i/100,0,1,0)
         task.wait(0.03)
     end
-    Text.Text = "Doors Modes Hub V30 Loaded!"
+    Text.Text = "Doors Modes Hub V31 (Beta) Loaded!"
     task.wait(0.5)
     ScreenGui:Destroy()
 end)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/idkman60093/Doors-Modes-Hub/refs/heads/main/Doors-Modes-Hub-V30"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/idkman60093/Doors-Modes-Hub/refs/heads/main/Doors-Modes-Hub-V31"))()
 
 local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/Voor-Pr00/Achivements/refs/heads/main/Voorpr0"))()
 
@@ -95,6 +95,6 @@ local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.
 achievementGiver({
     Title = "Welcome to the Hub",
     Desc = "It seems the hub has many script!",
-    Reason = "Execute Doors Modes Hub V30",
+    Reason = "Execute Doors Modes Hub V31 (Beta)",
     Image = "rbxassetid://9508482832"
 })
