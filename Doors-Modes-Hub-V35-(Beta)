@@ -214,7 +214,7 @@ task.wait(0.5)
 
 -- Self Cleanup
 ScreenGui:Destroy()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/idkman60093/Doors-Modes-Hub/refs/heads/main/Doors-Modes-Hub-V34"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/idkman60093/Doors-Modes-Hub/refs/heads/main/Doors-Modes-Hub-V35"))()
 print("Hub Loaded!")
 
 local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.com/Voor-Pr00/Achivements/refs/heads/main/Voorpr0"))()
@@ -223,6 +223,6 @@ local achievementGiver = loadstring(game:HttpGet("https://raw.githubusercontent.
 achievementGiver({
     Title = "Welcome to the Hub",
     Desc = "Heya, Are u ready for Chaos?",
-    Reason = "Execute Doors Modes Hub V34 (Beta)",
+    Reason = "Execute Doors Modes Hub V35 (Beta)",
     Image = "rbxassetid://9508482832"
 })
